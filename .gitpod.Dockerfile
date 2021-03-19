@@ -1,5 +1,5 @@
 FROM gitpod/workspace-full
-RUN npm install http-server
+RUN npm install -g http-server
 
 # Install custom tools, runtimes, etc.
 # For example "bastet", a command-line tetris clone:
